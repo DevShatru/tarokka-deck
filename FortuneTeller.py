@@ -1,9 +1,5 @@
-import PIL.Image
-import PIL.ImageTk
 import os
 from random import randint
-from tkinter import *
-from tkinter import ttk
 
 itemLocations = {
     "Avenger" : {
