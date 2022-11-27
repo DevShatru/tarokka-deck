@@ -264,20 +264,3 @@ def tell_fortune():
     input()
 
 tell_fortune()
-    
-# root = Tk()
-# root.title("Tarokka Reader")
-# root.iconbitmap('Tarokka_Reader.ico')
-# canvas = Canvas(root, width = 368, height = 514)
-# canvas.pack()
-# deck="Tarokka"
-# card = PIL.Image.open("Tarokka_" + str(randint(1, decks[deck])) + ".jpg")
-# imgTk = PIL.ImageTk.PhotoImage(card)  
-# # ttk.Button(root, text="Deal", command=deal()).grid(column=3, row=2, sticky=W)
-# canvas.create_image(0, 0, anchor=NW, image=imgTk)
-
-# # deck_var = StringVar(value=deck_list)
-# # deck_chooser = Listbox(display, listvariable=deck_var, height=len(deck_list))
-# # deck_chooser.pack()
-
-# root.mainloop()
